@@ -1,10 +1,9 @@
 # Dev environment
-pip
-autopep8
-python-dotenv
-httpx
-nbimporter
+autopep8==2.3.1
+python-dotenv==1.0.1
+nbimporter==0.3.4
 nbformat
+httpx
 # App
-google-generativeai # Client library for the Gemini API
-Pillow # PIL image-loading library
+google-generativeai==0.8.3  # Client library for the Gemini API
+pillow==11.0.0  # PIL image-loading library
